@@ -17,6 +17,9 @@
     font-size: 2rem;
     margin-bottom: 30px;
   }
+  .spb ol li {
+    margin-right: 5px;
+  }
 }
 
 /* style contents for larger screens only */
@@ -32,6 +35,9 @@
   .title {
     font-size: 3rem;
     margin-bottom: 40px;
+  }
+  .spb ol li {
+    margin-right: 10px;
   }
 }
 
@@ -95,9 +101,7 @@ a {
   justify-content: space-between;
   gap: 10px; /* Optional: add a little gap */
 }
-.spb ol li {
-  margin-right: 10px;
-}
+
 .spb ol li:hover {
   color: #f70606;
 }
