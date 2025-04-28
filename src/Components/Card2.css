@@ -41,10 +41,20 @@
     transition: all 0.9s ease; /* animate changes smoothly */
   }
   .card2kad:hover .bib {
-    margin-top: 50%; /* move downward when hovered */
+    margin-top: 90%; /* move downward when hovered */
   }
   .card2kad:hover .boxbt {
     opacity: 1;
+  }
+  .product-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .product-img2 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -90,6 +100,16 @@
   }
   .card2kad:hover .boxbt {
     opacity: 1;
+  }
+  .product-img {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+  }
+  .product-img2 {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
   }
 }
 
@@ -145,17 +165,6 @@
   bottom: -0%;
   right: -55%;
   z-index: 1235;
-}
-.product-img {
-  object-fit: cover;
-  width: 100%;
-  height: 150px;
-}
-
-.product-img2 {
-  object-fit: cover;
-  width: 100%;
-  height: 300px;
 }
 
 .btn-img {

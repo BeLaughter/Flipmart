@@ -174,29 +174,29 @@ const Card2 = () => {
           <div className="vege">
             <div className="hotdeal-top spb">
               <p className="p-hot">NEW PRODUCTS</p>
-              <div className="flex">
-                <ol className="spb text-dark">
+              <div>
+                <ol className="flex text-dark ">
                   <li>ALL</li>
                   <li>Clothing</li>
                   <li>Electronics</li>
                   <li>Shoes</li>
                 </ol>
-                <div className="flex">
-                  <img
-                    src={prev}
-                    alt="prev"
-                    className="smallicon"
-                    onClick={goPrevProduct}
-                    style={{ cursor: "pointer" }}
-                  />
-                  <img
-                    src={next}
-                    alt="next"
-                    className="smallicon"
-                    onClick={goNextProduct}
-                    style={{ cursor: "pointer" }}
-                  />
-                </div>
+              </div>
+              <div className="flex">
+                <img
+                  src={prev}
+                  alt="prev"
+                  className="smallicon hiddenonmobile"
+                  onClick={goPrevProduct}
+                  style={{ cursor: "pointer" }}
+                />
+                <img
+                  src={next}
+                  alt="next"
+                  className="smallicon hiddenonmobile"
+                  onClick={goNextProduct}
+                  style={{ cursor: "pointer" }}
+                />
               </div>
             </div>
             <hr />
