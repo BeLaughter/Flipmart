@@ -71,7 +71,7 @@ const Card4 = () => {
                 </div>
               </div>
             </div>
-            <div className="hotdeal-top spb">
+            <div className="hotdeal-top mt-3 spb">
               <div>
                 <p className="p-hot small-text">SPECIAL DEALS</p>
               </div>
