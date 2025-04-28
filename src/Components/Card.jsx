@@ -144,15 +144,15 @@ const Card = () => {
 
           <div className="flex2-text">
             <div>
-              <h6 className="text-center">MONEY BACK</h6>
+              <h6 className="text-center fw-bold">MONEY BACK</h6>
               <p className="text-center">30 Days Money Back Guarantee</p>
             </div>
             <div>
-              <h6 className="text-center">FREE SHIPPING</h6>
+              <h6 className="text-center fw-bold">FREE SHIPPING</h6>
               <p className="text-center">Shipping on orders over $99</p>
             </div>
             <div>
-              <h6 className="text-center">SPECIAL SALE</h6>
+              <h6 className="text-center fw-bold">SPECIAL SALE</h6>
               <p className="text-center">Extra $5 off on all items</p>
             </div>
           </div>
