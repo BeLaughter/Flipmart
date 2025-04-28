@@ -172,7 +172,7 @@ const Card2 = () => {
         {/* New Products Section */}
         <div className="flex2">
           <div className="vege">
-            <div className="hotdeal-top spb">
+            <div className="hotdeal-top">
               <p className="p-hot">NEW PRODUCTS</p>
               <div>
                 <ol className="flex text-dark ">

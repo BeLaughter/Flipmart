@@ -26,7 +26,6 @@
   }
   .middle {
     background-color: rgb(3, 105, 173);
-    justify-content: space-between !important;
   }
   .bottom {
     font-family: Arial, sans-serif;
@@ -34,6 +33,9 @@
     width: 100%;
     color: white !important;
     background-color: rgb(3, 81, 133);
+  }
+  .cart {
+    margin-top: 10px;
   }
 }
 
