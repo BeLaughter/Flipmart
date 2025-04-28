@@ -1,0 +1,127 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .special-img {
+    width: 60px;
+    height: 60px;
+  }
+  .bann {
+    width: 100%; /* make sure it stretches full */
+    object-fit: cover;
+    position: relative; /* make bann the base layer */
+    z-index: 1; /* lower z-index */
+    margin-bottom: 50px;
+  }
+  .bann2 {
+    position: absolute; /* make bann2 float over bann */
+    top: 0; /* adjust position */
+    left: 0; /* adjust position */
+    z-index: 123; /* higher z-index */
+    width: 23%;
+  }
+  .bann2-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* make wrapper same size as bann */
+    height: 100%;
+    display: flex;
+    align-items: center; /* center vertically */
+    justify-content: center; /* center horizontally */
+    z-index: 123;
+  }
+  .bann2-text {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    z-index: 122222;
+    transform: translate(-50%, -50%) rotate(310deg); /* center inside bann2 and rotate */
+    color: white; /* or any color you want */
+    font-size: 24px; /* adjust size */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black; /* make it pop */
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .bann {
+    width: 100%; /* make sure it stretches full */
+    object-fit: cover;
+    position: relative; /* make bann the base layer */
+    z-index: 1; /* lower z-index */
+    margin-bottom: 50px;
+  }
+
+  .bann2 {
+    position: absolute; /* make bann2 float over bann */
+    top: 0; /* adjust position */
+    left: 0; /* adjust position */
+    z-index: 123; /* higher z-index */
+  }
+  .bann2-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* make wrapper same size as bann */
+    height: 100%;
+    display: flex;
+    align-items: center; /* center vertically */
+    justify-content: center; /* center horizontally */
+    z-index: 123;
+  }
+  .bann2-text {
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    z-index: 122222;
+    transform: translate(-50%, -50%) rotate(310deg); /* center inside bann2 and rotate */
+    color: white; /* or any color you want */
+    font-size: 24px; /* adjust size */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black; /* make it pop */
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.card3kad {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+}
+
+.flex-a {
+  width: 30%;
+  margin-right: 30px;
+}
+
+.flex-b {
+  width: 70%;
+}
+.special-img {
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+}
+.small-text {
+  font-size: 14px;
+}
+.stars {
+  display: flex;
+}
+
+.staricon {
+  width: 14px;
+  height: 14px;
+  margin-right: 2px;
+}
+
+/* NEW: flex column layout for slides */
+.slide-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

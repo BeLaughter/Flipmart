@@ -1,0 +1,189 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .top-ui {
+    display: flex;
+  }
+  .top-a {
+    font-size: 10px;
+    background-color: rgb(3, 105, 173);
+    color: rgb(212, 213, 214);
+    margin-right: 10px;
+    padding-top: 5px;
+  }
+  .smallimage {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .cat {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+  }
+  .middle {
+    background-color: rgb(3, 105, 173);
+    justify-content: space-between !important;
+  }
+  .bottom {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    color: white !important;
+    background-color: rgb(3, 81, 133);
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .bottom table {
+    text-align: center;
+    background-color: rgb(3, 81, 133);
+    border-collapse: collapse;
+  }
+  .bottom td a {
+    color: white;
+  }
+  .bottom td:hover a {
+    color: rgb(12, 12, 12);
+  }
+  .bottom td {
+    padding: 10px 15px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    color: white;
+    white-space: nowrap;
+    position: relative;
+  }
+  .bottom td:hover {
+    background-color: white;
+  }
+  .bottom td:first-child {
+    border-left: none;
+  }
+  .bottom td:last-child {
+    border-right: none;
+  }
+
+  .bottom a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .hover-dropdown {
+    position: relative;
+  }
+  .hover-dropdown:hover #width {
+    display: flex;
+    padding-bottom: 0px;
+    line-height: 1;
+  }
+  .hover-dropdown ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 10px; /* adds a little space below the menu */
+    background-color: #fff;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    z-index: 100;
+    min-width: 200px;
+    border-radius: 0;
+  }
+  .dropdown-menu {
+    border-radius: 0;
+  }
+  .hover-dropdown:hover ul {
+    display: block;
+  }
+
+  .hover-dropdown ul li {
+    padding: 5px 5px;
+  }
+
+  .hover-dropdown ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+  }
+
+  .hover-dropdown ul li a:hover {
+    background-color: #f2f2f2;
+  }
+
+  .top {
+    display: block;
+  }
+  .top-ui {
+    padding-left: 600px;
+    margin-top: 0px;
+    display: flex;
+  }
+  .top-a {
+    font-size: 13px;
+    background-color: rgb(3, 105, 173);
+    color: rgb(212, 213, 214);
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    border-right-width: 1px;
+    border-right-color: rgb(212, 213, 214);
+    border-right-style: solid;
+  }
+
+  .middle {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(3, 105, 173);
+    justify-content: space-between !important;
+  }
+  .bottom {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    color: white !important;
+    background-color: rgb(3, 81, 133);
+  }
+  .input {
+    width: 450px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.navbar {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  height: auto;
+  width: 100%;
+  background-color: rgb(3, 105, 173);
+}
+
+.cart {
+  padding: 8px;
+  background-color: rgb(3, 105, 173);
+  border: 3px solid rgb(1, 67, 110);
+  border-radius: 5px;
+}
+.cart-count {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+}
+.p8 {
+  padding: 8px;
+}
+.mr-10 {
+  margin-right: 10px;
+}

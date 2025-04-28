@@ -1,0 +1,76 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .foot1 {
+    padding-bottom: 30px;
+    background-color: rgba(234, 234, 236, 0.801);
+  }
+  .crane2grid {
+    padding-top: 30px;
+    padding: 20px;
+    background-color: rgb(51, 47, 47);
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .crane3 {
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    width: 100%;
+  }
+  .imageicon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .foot1 {
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    background-color: rgba(234, 234, 236, 0.801);
+  }
+  .crane2grid {
+    padding-top: 30px;
+    background-color: rgb(51, 47, 47);
+    color: white;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+  }
+  .crane3 {
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+  }
+  .imageicon {
+    margin-left: 20px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.crane2griditem ul {
+  list-style-type: disc !important;
+}
+.crane2ulhead {
+  list-style-type: none;
+}
+.icon-ft {
+  width: 40px;
+  height: 40px;
+}
+.icon-ft2 {
+  width: 30px;
+  height: 30px;
+}

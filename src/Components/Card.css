@@ -1,0 +1,117 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .body-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(253, 253, 252);
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+  }
+
+  .body-table th {
+    background-color: #ffc107;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .body-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+
+  .body-table a {
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+  }
+  .car {
+    padding: 20px;
+    background-color: rgba(234, 234, 236, 0.801);
+    color: black;
+  }
+
+  .flex2-text {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #0c71b4;
+    margin-bottom: 20px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .car {
+    background-color: rgba(234, 234, 236, 0.801);
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .flex1 {
+    width: 15%;
+  }
+  .flex2 {
+    width: 70%;
+  }
+  .flex2-carosel {
+    font-size: 16px;
+    color: #ddd;
+    margin-top: 50px;
+  }
+  .flex2-text {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #0c71b4;
+  }
+  .body-table {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 160%;
+    background-color: rgb(253, 253, 252);
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+  }
+
+  .body-table th {
+    background-color: #ffc107;
+    color: white;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .body-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .body-table a {
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.btn-img2 {
+  background-color: rgb(95, 91, 91);
+  margin-top: 30px;
+  padding: 5px; /* Small padding around the icon */
+  border-radius: 8px;
+  width: 36px; /* control size */
+  height: 36px;
+}

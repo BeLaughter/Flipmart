@@ -1,0 +1,176 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .hotdeal {
+    padding: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: rgb(253, 253, 252);
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+  }
+  .banimg {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .ban2 {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .swiper-container {
+    width: 100%;
+  }
+
+  /* css for hovering to display icon */
+  .boxbt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .imgcon {
+    position: relative;
+  }
+  .bib {
+    color: #fcfafa;
+    margin-top: 10%; /* start higher (closer to top) */
+    transition: all 0.9s ease; /* animate changes smoothly */
+  }
+  .card2kad:hover .bib {
+    margin-top: 50%; /* move downward when hovered */
+  }
+  .card2kad:hover .boxbt {
+    opacity: 1;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .hotdeal {
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 160%;
+    background-color: rgb(253, 253, 252);
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+  }
+  .ban2 {
+    width: 270px;
+    margin-bottom: 50px;
+  }
+  .banimg {
+    margin-bottom: 50px;
+  }
+  /* css for hovering to display icon */
+  .boxbt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .imgcon {
+    position: relative;
+  }
+  .bib {
+    color: #fcfafa;
+    margin-top: 10%; /* start higher (closer to top) */
+    transition: all 0.9s ease; /* animate changes smoothly */
+  }
+  .card2kad:hover .bib {
+    margin-top: 80%; /* move downward when hovered */
+  }
+  .card2kad:hover .boxbt {
+    opacity: 1;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.p-hot {
+  font-weight: bold;
+}
+.hotdeal-top {
+  display: flex; /* <-- Add this */
+  align-items: center; /* <-- Align vertically center */
+  padding: 10px;
+  justify-content: space-between;
+}
+.fr {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  font-size: 13px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.vege {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.text-grey {
+  color: rgb(168, 168, 168) !important;
+  font-weight: bold;
+}
+.text-dark {
+  font-weight: bold;
+  color: black;
+}
+.card2kad {
+  padding: 10px;
+  width: 100%;
+}
+.cir {
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: rgb(34, 204, 28);
+  padding: 20px;
+  display: flex; /* Fixes collapse issue */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  bottom: -0%;
+  right: -55%;
+  z-index: 1235;
+}
+.product-img {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.product-img2 {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.btn-img {
+  background-color: rgb(206, 204, 204);
+  margin-left: 5px; /* Add left margin for spacing between buttons */
+  padding: 5px; /* Small padding around the icon */
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 32px; /* control size */
+  height: 32px;
+}
+.smallicon {
+  width: 16px;
+  height: 16px;
+}
