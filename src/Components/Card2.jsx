@@ -48,20 +48,24 @@ const Card2 = () => {
             <div className="hotdeal-top spb">
               <p className="p-hot">HOT DEALS</p>
               <div className="flex">
-                <img
-                  src={prev}
-                  alt="prev"
-                  className="smallicon"
-                  onClick={goPrevHot}
-                  style={{ cursor: "pointer" }}
-                />
-                <img
-                  src={next}
-                  alt="next"
-                  className="smallicon"
-                  onClick={goNextHot}
-                  style={{ cursor: "pointer" }}
-                />
+                <div className="btn-img">
+                  <img
+                    src={prev}
+                    alt="prev"
+                    className="smallicon"
+                    onClick={goPrevHot}
+                    style={{ cursor: "pointer" }}
+                  />
+                </div>
+                <div className="btn-img">
+                  <img
+                    src={next}
+                    alt="next"
+                    className="smallicon"
+                    onClick={goNextHot}
+                    style={{ cursor: "pointer" }}
+                  />
+                </div>
               </div>
             </div>
             <hr />
@@ -172,10 +176,12 @@ const Card2 = () => {
         {/* New Products Section */}
         <div className="flex2">
           <div className="vege">
-            <div className="hotdeal-top">
-              <p className="p-hot">NEW PRODUCTS</p>
+            <div className="hotdeal-topz">
               <div>
-                <ol className="flex text-dark ">
+                <p className="p-hot">NEW PRODUCTS</p>
+              </div>
+              <div>
+                <ol className="spb text-dark">
                   <li>ALL</li>
                   <li>Clothing</li>
                   <li>Electronics</li>
@@ -183,20 +189,24 @@ const Card2 = () => {
                 </ol>
               </div>
               <div className="flex">
-                <img
-                  src={prev}
-                  alt="prev"
-                  className="smallicon hiddenonmobile"
-                  onClick={goPrevProduct}
-                  style={{ cursor: "pointer" }}
-                />
-                <img
-                  src={next}
-                  alt="next"
-                  className="smallicon hiddenonmobile"
-                  onClick={goNextProduct}
-                  style={{ cursor: "pointer" }}
-                />
+                <div className="btn-img">
+                  <img
+                    src={prev}
+                    alt="prev"
+                    className="smallicon "
+                    onClick={goPrevProduct}
+                    style={{ cursor: "pointer" }}
+                  />
+                </div>
+                <div className="btn-img">
+                  <img
+                    src={next}
+                    alt="next"
+                    className="smallicon"
+                    onClick={goNextProduct}
+                    style={{ cursor: "pointer" }}
+                  />
+                </div>
               </div>
             </div>
             <hr />

@@ -56,6 +56,12 @@
     object-fit: cover;
     width: 100%;
   }
+  .hotdeal-topz {
+    display: flex; /* <-- Add this */
+    flex-direction: column;
+    align-items: left; /* <-- Align vertically center */
+    justify-content: space-between;
+  }
 }
 
 /* style contents for larger screens only */
@@ -110,6 +116,11 @@
     object-fit: cover;
     width: 100%;
     height: 300px;
+  }
+  .hotdeal-topz {
+    display: flex; /* <-- Add this */
+    align-items: center; /* <-- Align vertically center */
+    justify-content: space-between;
   }
 }
 
