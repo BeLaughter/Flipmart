@@ -102,6 +102,6 @@ a {
   gap: 10px; /* Optional: add a little gap */
 }
 
-.spb ol li:hover {
+.spb li:hover {
   color: #f70606;
 }
